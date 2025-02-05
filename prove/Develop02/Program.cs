@@ -55,7 +55,11 @@ class Program
                 journal.LoadFromFile(filename);
             }
 
-
+            else if(choice == "5") 
+            {
+                Console.WriteLine("Exiting Program");
+                break;
+            }
         }
-    }
+    }    
 }

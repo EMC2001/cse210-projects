@@ -52,7 +52,7 @@ class Journal
             return;
         }
 
-        entries.Clear(); // Clear current entries before loading new ones
+        entries.Clear(); 
 
         string[] lines = File.ReadAllLines(filename);
         foreach (string line in lines)
